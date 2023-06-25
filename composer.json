@@ -1,0 +1,26 @@
+{
+    "name": "alibinsarwar/material-dashboard",
+    "description": "material dashboard for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ali\\MaterialDashboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Ali",
+            "email": "alibinsarwar2001@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ali\\MaterialDashboard\\PackageServiceProvider"
+            ]
+        }
+    }
+}
