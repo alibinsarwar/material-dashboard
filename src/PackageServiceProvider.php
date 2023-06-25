@@ -17,7 +17,7 @@ class PackageServiceProvider extends ServiceProvider
         (new Filesystem)->ensureDirectoryExists(resource_path('views/admin'));
         (new Filesystem)->ensureDirectoryExists(resource_path('views/layouts'));
         (new Filesystem)->copyDirectory(__DIR__.'/../stubs/admin', resource_path('/views/admin'));
-        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/admin_theme', base_path('/public'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../stubs/public', base_path('/public'));
         copy(__DIR__.'/../stubs/admin.blade.php', resource_path('/views/layouts/admin.blade.php'));
 
     }
