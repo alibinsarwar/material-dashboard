@@ -5,9 +5,10 @@ This package provides a Laravel integration for the popular Material Dashboard .
 ## Installation
 
 ```bash
-composer require alibinsarwar/material-dashboard:dev-main
+composer require alisarwar/material-dashboard:dev-main
 
 ```
+
 ## Usage
 
 Once the package is installed and configured, you can access the Material Dashboard views by navigating to `resources/views/admin` in your Laravel application.
@@ -19,4 +20,3 @@ The package's public files, including CSS, JS, and images, are located in the `p
 ## Contributing
 
 If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/alibinsarwar/material-dashboard.git).
-
